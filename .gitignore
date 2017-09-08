@@ -1,0 +1,7 @@
+
+.idea/
+coverage-html/
+vendor/
+
+config.php
+phpunit.xml
