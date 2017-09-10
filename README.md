@@ -12,25 +12,30 @@
 ## PluginFactoryInterface & AbstractPluginFactory class
 
 Each plugin should have their own factory class implement
-`PluginFactoryInterface`, and implement plugin config after created.
+[PluginFactoryInterface](src/PluginApi/PluginFactoryInterface.php), and
+implement plugin config after created.
 
 
 
 ## PluginInterface & AbstractPlugin class
 
-All plugins should implement `PluginInterface`, `AbstractPlugin` is an implement
-include shared feature.
+All plugins should implement
+[PluginInterface](src/PluginApi/PluginInterface.php),
+[AbstractPlugin](src/PluginApi/AbstractPlugin.php) is an implement with shared
+feature.
 
 
 
 ## MessageInterface & Message class
 
-Messages retrieved from source will be format to `MessageInterface` instance,
-and transfer to destination, this interface is a pipe between different message
-format from different twitter like service.
+Messages retrieved from source will be format to
+[MessageInterface](src/PluginApi/MessageInterface.php) instance, and transfer to
+destination, this interface is a pipe between different message format from
+different twitter like service.
 
-`Message` is an implement, with message dump and compare feature, can be used to
-save message and attachment to disk or sort them for re-post.
+[Message](src/PluginApi/Message.php) is an implement, with message dump and
+compare feature, can be used to save message and attachment to disk or sort them
+for re-post.
 
 
 
