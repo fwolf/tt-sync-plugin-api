@@ -8,6 +8,14 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fwolf/tt-sync-plugin-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fwolf/tt-sync-plugin-api/?branch=master)
 
 
+
+## PluginFactoryInterface & AbstractPluginFactory
+
+Each plugin should have their own factory class implement
+`PluginFactoryInterface`, and implement plugin config after created.
+
+
+
 ## PluginInterface & AbstractPlugin class
 
 All plugins should implement `PluginInterface`, `AbstractPlugin` is an implement
