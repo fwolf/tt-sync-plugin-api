@@ -9,7 +9,7 @@
 
 
 
-## PluginFactoryInterface & AbstractPluginFactory
+## PluginFactoryInterface & AbstractPluginFactory class
 
 Each plugin should have their own factory class implement
 `PluginFactoryInterface`, and implement plugin config after created.

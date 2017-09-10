@@ -11,7 +11,7 @@ interface PluginInterface
     /**
      * Plugin API version
      */
-    const API_VERSION = 'Un-versioned';
+    const API_VERSION = '0.1';
 
     /**
      * Default to get how many recent messages
